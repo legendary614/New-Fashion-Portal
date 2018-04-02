@@ -1,0 +1,290 @@
+main {
+    padding-left: 247px;
+    padding-top: 47px;
+}
+.container-head h2 {
+    font-family: opensans-light;
+    color: #4e4c4c;
+    font-weight: normal;
+    font-size: 43px;
+}
+.container-head h2 span {
+    color: #5885f5
+}
+.container-head p {
+    font-family: opensans;
+    font-size: 14px;
+    line-height: 18px;
+    color: #393838;
+    margin-top: 21px;
+    padding-right: 158px;
+}
+.filter-box {
+    margin-top: 34px;
+}
+.filter-box .display-p {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: Roboto-regular;
+    color: #8f8f93;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 3px;
+}
+
+.header-menu-btn {
+    background-image: url(../../../../assets/images/menu-img-white.png);
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 17px;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    cursor: pointer;
+    display: none;
+}
+.container-head .add-number-btn {
+    border: none;
+    outline: none;
+    background-color: #5885f5;
+    color: #fff;
+    font-size: 16px;
+    font-family: opensans;
+    border-radius: 4px;
+    width: 185px;
+    height: 47px;
+    margin-top: 10px;
+    margin-left: 3px;
+    margin-bottom: 13px;
+}
+.filter-box .action-select.select-item-content {
+    width: 112px;
+}
+.csv-content {
+    float: right;
+    margin-right: 16px;
+}
+.csv-content p{
+    line-height: 39px;
+    font-size: 16px;
+    color: #5885f5;
+    font-family: opensans;
+    display: inline-block;
+}
+.csv-content .csv-img {
+    vertical-align: middle;
+    display: inline-block;
+    width: 14px;
+    height: 17px;
+    margin-right: 4px;
+    margin-bottom: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../../../../assets/images/pdf-file.png");
+}
+.allocated-btn {
+    border: none;
+    outline: none;
+    background-color: #33C554;
+    color: #fff;
+    font-size: 11px;
+    font-family: Roboto-bold;
+    border-radius: 4px;
+    width: 88px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 3px;
+    margin-bottom: 13px;
+}
+.did-a {
+    color: #5885f5;
+}
+.date-time-i {
+    font-size: 20px;
+    margin-left: 5px;
+    display: inline-block;
+    color: #e2e2e2;
+    vertical-align: sub;
+    cursor: pointer;
+}
+.view-td {
+    width: 14px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../../../assets/images/view-img.png");
+    cursor: pointer;
+}
+
+
+
+
+.download-view-btns-content {
+    margin-top: 19px;
+}
+.download-view-btns-content .download-cdr-btn {
+    margin-left: 3px;
+}
+.download-view-btns-content .view-calls-btn,
+.download-view-btns-content .download-cdr-btn {
+    border: none;
+    outline: none;
+    background-color: #5885f5;
+    color: #fff;
+    font-size: 16px;
+    font-family: opensans;
+    border-radius: 4px;
+    width: 185px;
+    height: 47px;
+    margin-right: 3px;
+}
+
+.trunk-groups-select {
+    width: 212px;
+    margin-left: 25px;
+    display: inline-block;
+}
+.trunk-groups-select .option:nth-of-type(1) {
+    margin-top: 0;
+}
+.trunk-groups-select .option {
+    height: 38px;
+}
+.trunk-groups-select .first-option {
+    height: 47px;
+    border-radius: 4px;
+}
+.trunk-groups-select p {
+    padding: 12px 10px;
+    color: #9e9b9a;
+    font-family: opensans;
+    font-size: 16px;
+}
+.calls-sms-choose-content {
+    margin-top: 65px;
+    margin-bottom: 20px;
+}
+.successful-calls, .successful-sms {
+    background-color: #f6f7fc;
+    display: inline-block;
+    width: 206px;
+    height: 46px;
+    cursor: pointer;
+}
+.successful-sms {
+    margin-left: -3px;
+    width: calc(100% - 210px);
+}
+.successful-calls {
+    margin-left: 3px;
+}
+.calls-sms-choose-content hr {
+    height: 5px;
+    background-color: #000;
+    border-color: #000;
+    margin-left: 3px;
+}
+.calls-sms-choose-content .warning-p {
+    font-family: opensans;
+    color: #323231;
+    font-size: 16px;
+    margin-top: 19px;
+    margin-left: 6px;
+}
+.successful-calls p, .successful-sms p {
+    font-family: Roboto-regular;
+    color: #818181;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 14px;
+}
+.active-success-attemps.successful-sms {
+    width: 206px;
+}
+.active-success-attemps  {
+    background-color: #323231;
+}
+.active-success-attemps p {
+    color: #fff;
+}
+.calls-sms-choose-content .info-steps {
+    margin-right: 28px;
+}
+
+@media (max-width: 1000px) {
+    .container-head p {
+        padding-right: 10px;
+    }
+    .trunk-groups-select {
+        width: 382px;
+        margin-top: 16px;
+        margin-left: 0;
+        display: block;
+    }
+}
+
+@media (max-width: 950px) {
+    .filter-box .search-input {
+        float: initial;
+        display: block;
+        margin-top: 10px;
+    }
+    .csv-content {
+        float: initial;
+        margin-left: 15px;
+        display: inline-block;
+    }
+}
+@media (max-width: 768px) {
+    header {
+        height: 30px;
+    }
+    main {
+        padding-left: 28px;
+    }
+    aside {
+        display: none;
+    }
+    header .col-10 {
+        width: 94%;
+    }
+    .header-menu-btn {
+        display: inline-block;
+    }
+}
+@media (max-width: 600px) {
+    .filter-box .search-input {
+        width: 100%;
+    }
+    .container-head h2 {
+        font-size: 25px;
+    }
+    .left-side-div {
+        width: 100%;
+    }
+    .filter-box .action-select.select-item-content {
+        width: 100%;
+        margin-top: 20px;
+        display: block;
+    }
+    .trunk-groups-select {
+        width: 100%;
+    }
+    .download-view-btns-content .download-cdr-btn {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .download-view-btns-content .view-calls-btn  {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 3px;
+    }
+    main {
+        padding-right: 28px;
+    }
+    .successful-calls, .successful-sms {
+        width: calc(100% - 3px);
+        margin-left: 3px;
+    }
+}

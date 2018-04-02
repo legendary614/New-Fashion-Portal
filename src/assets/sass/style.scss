@@ -1,0 +1,299 @@
+@import './config/variables';
+@import './config/mixins';
+@import './styles/aside';
+// @import './styles/billing_activity';
+// @import './styles/check_portability';
+// @import './styles/checkout';
+// @import './styles/dashboard';
+// @import './styles/dialpad_popup';
+// @import './styles/edit_trunk';
+// @import './styles/invoices';
+// @import './styles/my_callrecords';
+// @import './styles/my_callrecords_sms';
+// @import './styles/my_didnumbers';
+// @import './styles/my_didnumbers_popups';
+// @import './styles/my_e911numbers';
+// @import './styles/my_orders';
+// @import './styles/my_orders-popup';
+// @import './styles/my_trunkgroups';
+// @import './styles/payment_history';
+// @import './styles/payments';
+// @import './styles/popular_phoneslist';
+// @import './styles/popup_addcard';
+// @import './styles/transfer_numbers';
+// @import './styles/ui';
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.pull {
+
+	&-right {
+		float: right;
+	}
+	
+	&-left {
+		float: left;
+	}
+}
+
+.text {
+
+	&-left {
+		text-align: left;
+	}
+
+	&-right {
+		text-align: right;
+	}
+
+	&-center {
+		text-align: center;
+	}
+}
+
+.justify {
+	&-space-between {
+		justify-content: space-between;
+	}
+}
+
+@font-face {
+    font-family: SFUIDisplay-Light;
+    src: url(./assets/fonts/SFUIDisplay-Light.ttf);
+}
+@font-face {
+    font-family: SFUIDisplay-Semibold;
+    src: url(./assets/fonts/SFUIDisplay-Semibold.ttf);
+}
+@font-face {
+    font-family: SFUIDisplay-Regular;
+    src: url(./assets/fonts/SFUIDisplay-Regular.ttf)
+}
+@font-face {
+    font-family: Roboto-Light;
+    src: url(./assets/fonts/roboto.light.ttf);
+}
+@font-face {
+    font-family: Roboto-bold;
+    src: url(./assets/fonts/roboto.bold.ttf);
+}
+@font-face {
+    font-family: Roboto-regular;
+    src: url(./assets/fonts/roboto.regular.ttf);
+}
+@font-face {
+    font-family: Roboto-medium;
+    src: url(./assets/fonts/roboto.medium.ttf);
+}
+@font-face {
+    font-family: Roboto-thin;
+    src: url(./assets/fonts/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family: Roboto-italic;
+    src: url(./assets/fonts/Roboto-Italic.ttf);
+}
+
+@font-face {
+    font-family: opensans-semibold;
+    src: url(./assets/fonts/2212.ttf);
+}
+
+@font-face {
+    font-family: opensans-light;
+    src: url(./assets/fonts/OpenSans-Light.ttf);
+}
+@font-face {
+    font-family: opensans-bold;
+    src: url(./assets/fonts/2204.ttf);
+}
+@font-face {
+    font-family: opensans;
+    src: url(./assets/fonts/2211.ttf);
+}
+@font-face {
+    font-family: lato-bold;
+    src: url(./assets/fonts/Lato-Bold.ttf);
+}
+
+a {
+	text-decoration: none;
+}
+button, input {
+    cursor: pointer;
+}
+main {
+    padding-top: 26px;
+}
+.col-10 {
+    width: 74%;
+}
+.container-head h2 {
+    letter-spacing: -3px;
+}
+
+/*selected-item-styles*/
+.select-item-content {
+    position: relative;
+}
+.selected-item {
+    position: relative;
+    height: 38px;
+
+}
+.first-option {
+    height: 38px;
+    
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+}
+.first-option:hover {
+    background-color: #fff;
+    color: #222;
+}
+.selected-item:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+}
+.option-wrap {
+    display: none;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.option {
+    color: #222;
+    font-family: Roboto-regular;
+    font-size: 14px;
+    position: relative;
+    cursor: pointer;
+    /*padding: 10px 15px;*/
+    background-color: #fff;
+}
+.option:nth-of-type(1) {
+    margin-top: 8px;
+}
+.option:hover{
+    cursor: pointer;
+}
+.option input {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.active {
+    display: block;
+}
+.selected-item .option {
+   
+    background-repeat: no-repeat;
+    background-color: #fff;
+    color: #222;
+    background-position: calc(100% - 10px) center !important;
+    border: 1px solid #d7d8da;
+}
+.option-wrap .option {
+    border-bottom: 1px solid #d7d8da;
+    border-left: 1px solid #d7d8da;
+    border-right: 1px solid #d7d8da;
+}
+.option-wrap .option:nth-of-type(1) {
+    border-top: 1px solid #d7d8da;
+}
+
+/*checkbox-styles*/
+
+.checkbox {
+    width: 17px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+.checkbox label {
+    cursor: pointer;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: -3px;
+    left: -1px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    box-shadow: 1px 1px rgba(221, 221, 221, 0.4);
+}
+.checkbox label:after {
+    opacity: 0.2;
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 3px;
+    background: transparent;
+    top: 3px;
+    left: 3px;
+    border: 3px solid #3064c3;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg);
+    opacity: 0;
+}
+.checkbox label:hover::after {
+    opacity: 0;
+}
+.checkbox input[type=checkbox]:checked + label:after {
+    opacity: 1;
+}
+
+
+/*info-steps*/
+
+.info-steps {
+    margin-bottom: 20px;
+    display: inline-flex;
+    float: right;
+    margin-top: 26px;
+}
+.arrow-left, .arrow-right, .table-page-number {
+    width: 38px;
+    height: 38px;
+    background-color: #fff;
+    outline: none;
+    border: none;
+    font-family: Roboto-regular;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+}
+.arrow-left {
+    margin-right: 6px;
+    background-image: url(./assets/images/arrow-left.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.arrow-right {
+    background-image: url(./assets/images/arrow-right.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.arrow-right-disabled {
+    
+}
+.arrow-left-disabled {
+    
+}
+.table-page-number {
+    width: initial;
+    padding-left: 9px;
+    padding-right: 9px;
+    color: #494951;
+    margin-right: 6px;
+}

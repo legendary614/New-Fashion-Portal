@@ -1,0 +1,138 @@
+
+.e991numbers-main {
+    padding-left: 247px;
+    padding-top: 47px;
+    padding-right: 28px;
+}
+.container-head h2 {
+    font-family: opensans-light;
+    color: #4e4c4c;
+    font-weight: normal;
+    font-size: 43px;
+}
+.container-head h2 span {
+    color: #5885f5
+}
+.container-head p {
+    font-family: opensans;
+    font-size: 14px;
+    line-height: 18px;
+    color: #393838;
+    margin-top: 21px;
+    padding-right: 130px;
+}
+.filter-box {
+    margin-top: 37px;
+}
+.filter-box .display-p {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: Roboto-regular;
+    color: #8f8f93;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 3px;
+}
+
+.header-menu-btn {
+    background-image: url(../../../../assets/images/menu-img-white.png);
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 17px;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    cursor: pointer;
+    display: none;
+}
+.container-head .add-number-btn {
+    border: none;
+    outline: none;
+    background-color: #5885f5;
+    color: #fff;
+    font-size: 16px;
+    font-family: opensans;
+    border-radius: 4px;
+    width: 185px;
+    height: 47px;
+    margin-top: 10px;
+    margin-left: 3px;
+    margin-bottom: 13px;
+}
+.filter-box .action-select.select-item-content {
+    width: 112px;
+}
+.csv-content {
+    float: right;
+    margin-right: 16px;
+}
+.csv-content p{
+    line-height: 39px;
+    font-size: 16px;
+    color: #5885f5;
+    font-family: opensans;
+    display: inline-block;
+}
+.csv-content .csv-img {
+    vertical-align: middle;
+    display: inline-block;
+    width: 14px;
+    height: 17px;
+    margin-right: 4px;
+    margin-bottom: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../../../../assets/images/pdf-file.png");
+}
+@media (max-width: 1000px) {
+    .container-head p {
+        padding-right: 10px;
+    }
+}
+@media (max-width: 768px) {
+    header {
+        height: 30px;
+    }
+    main {
+        padding-left: 28px;
+    }
+    aside {
+        display: none;
+    }
+    header .col-10 {
+        width: 94%;
+    }
+    .header-menu-btn {
+        display: inline-block;
+    }
+}
+@media (max-width: 950px) {
+    .filter-box .search-input {
+        float: initial;
+        display: block;
+        margin-top: 10px;
+    }
+    .csv-content {
+        float: initial;
+        margin-left: 15px;
+        display: inline-block;
+    }
+}
+
+@media (max-width: 600px) {
+    .filter-box .search-input {
+        width: 100%;
+    }
+    .container-head h2 {
+        font-size: 25px;
+    }
+    .left-side-div {
+        width: 100%;
+    }
+    .filter-box .action-select.select-item-content {
+        width: 100%;
+        margin-top: 20px;
+        display: block;
+    }
+}

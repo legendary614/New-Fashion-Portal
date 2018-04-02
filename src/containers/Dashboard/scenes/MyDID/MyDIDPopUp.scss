@@ -1,0 +1,296 @@
+.pop-up {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.pop-up-content {
+    position: relative;
+    margin: 76px auto;
+    width: 497px;
+    box-shadow: 0 15px 17px rgba(168, 168, 168, 0.08);
+    border-radius: 5px;
+    padding: 25px;
+    background-color: #fff;
+}
+.close-pop-up {
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    width: 29px;
+    height: 27px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/assets/images/close-pop-up.png");
+    cursor: pointer;
+}
+.pop-up-header h2 {
+    font-family: Roboto-bold;
+    color: #373737;
+    font-size: 27px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    text-align: center;
+}
+.pop-up-header p {
+    font-family: opensans;
+    color: #373737;
+    font-size: 14px;
+    text-align: center;
+}
+.add-card-content label {
+    font-family: Roboto-bold;
+    text-transform: uppercase;
+    display: block;
+    color: #4a4a52;
+    font-size: 11px;
+    line-height: 24px;
+    padding-top: 10px;
+}
+.add-card-content {
+    background-color: #f6f7fc;
+    padding: 5px 23px 23px 23px;
+    margin-top: 20px;
+}
+.add-card-content .firs-name-input {
+    width: 50%;
+}
+.add-card-content .last-name-input {
+    width: 49%;
+}
+.add-card-content .city-input, .add-card-content .zip-input {
+    width: 33%;
+}
+.select-state {
+    width: 32%;
+    display: inline-block;
+    vertical-align: top;
+}
+.select-state .option:nth-of-type(1) {
+    margin-top: 0;
+}
+.select-state .option {
+    height: 38px;
+}
+.select-state .first-option {
+    height: 47px;
+    border-radius: 4px;
+}
+.select-state p {
+    padding: 12px 10px;
+    color: #9e9b9a;
+    font-family: opensans;
+    font-size: 16px;
+}
+.add-card-content input {
+    background-color: #fff;
+    height: 47px;
+    outline: none;
+    border: 1px solid #d8dbdc;
+    border-radius: 4px;
+    font-family: Roboto-regular;
+    font-size: 16px;
+    color: #323231;
+    width: 100%;
+    text-indent: 10px;
+}
+.add-card-content input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #9e9b9a;
+    font-family: opensans;
+    font-size: 16px;
+}
+.add-card-content input::-moz-placeholder { /* Firefox 19+ */
+    color: #9e9b9a;
+    font-family: opensans;
+    font-size: 16px;
+}
+.add-card-content input:-ms-input-placeholder { /* IE 10+ */
+    color: #9e9b9a;
+    font-family: opensans;
+    font-size: 16px;
+}
+.add-card-content input:-moz-placeholder { /* Firefox 18- */
+    color: #9e9b9a;
+    font-family: opensans;
+    font-size: 16px;
+}
+.add-card-content .first-column {
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
+}
+.add-card-content .second-column {
+    display: inline-block;
+    vertical-align: top;
+    width: 31%;
+    margin-left: 8%;
+}
+.first-column .select-state {
+    width: 49%;
+}
+.card-number-content {
+    margin-top: 14px;
+}
+.buttons-content {
+    margin-top: 28px;
+}
+.buttons-content .cancel-btn {
+    font-size: 15px;
+    color: #5885f5;
+    font-family: opensans-semibold;
+    display: inline-block;
+    line-height: 29px;
+    text-indent: 32px;
+    background-image: url(/assets/images/cancel-img.png);
+    background-size: 23px 24px;
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    margin-top: 13px;
+}
+.buttons-content .save-btn {
+    border: none;
+    outline: none;
+    background-color: #5885f5;
+    font-family: opensans;
+    color: #fff;
+    font-size: 16px;
+    width: 132px;
+    height: 48px;
+    float: right;
+    border-radius: 4px;
+}
+
+
+
+
+
+.did-number-details-content table {
+    margin: 20px auto;
+}
+.did-number-details-content table td:nth-of-type(1) {
+    font-family: Roboto-bold;
+    color: #4a4a52;
+    font-size: 11px;
+    line-height: 24px;
+    min-width: 123px;
+}
+.did-number-details-content table td:nth-of-type(2) {
+    font-family: opensans;
+    color: #4a4a52;
+    font-size: 14px;
+}
+.processed-btn {
+    border: none;
+    outline: none;
+    background-color: #33C554;
+    color: #fff;
+    font-size: 11px;
+    font-family: Roboto-bold;
+    border-radius: 4px;
+    width: 88px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 3px;
+    margin-bottom: 13px;
+}
+.export-select .selected-item .option {
+    border: none;
+    background-color: #f6f7fc;
+    background-image: url(/assets/images/arrow-down.png);
+}
+.export-select .selected-item p {
+    padding: 10px 15px 10px 8px;
+    font-size: 14px;
+    color: #a19c9c;
+    font-family: Roboto-regular;
+}
+.export-select .option-wrap p {
+    color: #494951;
+    padding: 10px 15px 10px 8px;
+    font-family: Roboto-regular;
+    font-size: 14px;
+}
+.cnam-td p {
+    display: inline-block;
+}
+.pop-up .left-column {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+.pop-up .right-column {
+    display: inline-block;
+    width: 49%;
+    padding-top: 95px;
+}
+
+
+@media (max-width: 1150px) {
+    .pop-up .left-column {
+        width: 100%;
+    }
+    .pop-up .right-column {
+        width: 100%;
+        padding-top: 0;
+    }
+}
+@media (max-width: 1000px) {
+    .container-head p {
+        padding-right: 10px;
+    }
+}
+@media (max-width: 768px) {
+    header {
+        height: 30px;
+    }
+    main {
+        padding-left: 28px;
+    }
+    aside {
+        display: none;
+    }
+    header .col-10 {
+        width: 94%;
+    }
+    .header-menu-btn {
+        display: inline-block;
+    }
+}
+@media (max-width: 950px) {
+    .filter-box .search-input {
+        float: initial;
+        display: block;
+        margin-top: 10px;
+    }
+    .csv-content {
+        float: initial;
+        margin-left: 15px;
+        display: inline-block;
+    }
+}
+
+@media (max-width: 600px) {
+    .filter-box .search-input {
+        width: 100%;
+    }
+    .container-head h2 {
+        font-size: 25px;
+    }
+    .left-side-div {
+        width: 100%;
+    }
+    .filter-box .action-select.select-item-content {
+        width: 100%;
+        margin-top: 20px;
+        display: block;
+    }
+    .pop-up-content {
+        width: 100%;
+    }
+    .close-pop-up {
+        right: 0;
+    }
+}

@@ -1,0 +1,4 @@
+export default {
+	SELECT_SLIDE: 'SELECT_SLIDE',
+	RESET_STORE: 'RESET_STORE'
+}

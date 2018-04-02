@@ -1,0 +1,246 @@
+
+.billing-activity-table-content .text-td {
+    font-family: opensans;
+    color: #4a4a52;
+    font-size: 12px;
+    padding-left: 14px;
+    min-width: 250px;
+}
+
+.shop-by-category .billing-activity-table-content td:nth-of-type(1) {
+    min-width: 115px;
+}
+.shop-by-category .billing-activity-table-content td {
+    vertical-align: top;
+    padding: 10px 14px;
+}
+.shop-by-category .col-10 {
+    padding-bottom: 102px;
+}
+.option-wrap-visible {
+    display: block;
+}
+
+.right-side-content {
+    position: absolute;
+    top: 150px;
+    left: 56px;
+    background-color: #333435;
+    width: 338px;
+    padding: 25px 25px 3px 25px;
+    overflow-y: auto;
+    z-index: 1000;
+    border-radius: 14px;
+}
+.right-side-content .call-content-right p {
+    color: #fff;
+    font-size: 12px;
+    font-family: Roboto-bold;
+    display: inline-block;
+}
+.right-side-content .call-content-right p span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #16cc27;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-left: -4px;
+}
+
+
+.right-side-content .phone-number {
+    margin-top: 8px;
+    margin-bottom: 26px;
+    margin-right: -3px;
+}
+.pause-hang-up-content {
+    display: inline-block;
+    float: right;
+}
+.right-side-content .phone-number h2 {
+    font-family: Roboto-Light;
+    font-size: 30px;
+    color: #818181;
+    font-weight: normal;
+    line-height: 45px;
+    margin-top: 7px;
+}
+.phone-number-header {
+    display: inline-block;
+}
+.right-side-content .call-content-right .ups-inc-p {
+    font-family: Roboto-Light;
+    color: #b2c4e6;
+    font-size: 18px;
+    line-height: 24px;
+    display: block;
+    margin-top: -6px;
+}
+.right-side-content .call-content-right .hangup-p {
+    font-family: Roboto-regular;
+    color: #8ba5bf;
+    font-size: 12px;
+    display: block;
+    text-align: right;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+.right-side-content .phone-number .call-img {
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    margin-left: 20px;
+    background-color: #f4595f;
+    background-image: url(/assets/images/hangup-img.png);
+    background-size: 34px 12px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.pause-img {
+    display: inline-block;
+    width: 16px;
+    height: 27px;
+    background-image: url(/assets/images/pause.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+.right-side-content .rows-right-content {
+    margin-top: 32px;
+}
+.right-side-content .rows-right-content p {
+    width: 100%;
+    color: #f6f7fc;
+    font-size: 12px;
+    font-family: Roboto-regular;
+    border-bottom: 1px dashed #f6f7fc;
+    position: relative;
+    line-height: 20px;
+}
+.right-side-content .rows-right-content p  i {
+    position: absolute;
+    right: 7px;
+    font-size: 28px;
+    top: -6px;
+    color: #f6f7fc;
+}
+.right-side-content .right-content-row h2 {
+    font-family: Roboto-Light;
+    color: #494951;
+    font-size: 38px;
+    text-align: center;
+    font-weight: normal;
+}
+.right-content-row table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.right-content-row table tr {
+    border-bottom: 1px solid #48494a;
+    height: 39px;
+}
+.right-content-row table td {
+    font-size: 14px;
+    color: #656565;
+    font-family: Roboto-regular;
+}
+.right-side-content .right-content-row {
+    margin-top: 8px;
+}
+.right-content-row .clear {
+    width: 84%;
+    margin: 10px auto 38px auto;
+}
+.right-content-row .clear a {
+    font-family: Roboto-regular;
+    font-size: 14px;
+    color: #3174ee;
+}
+.right-content-row .clear .clear-img {
+    width: 32px;
+    height: 22px;
+    background-image: url("/assets/images/clear-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+    cursor: pointer;
+}
+.dialpad-content {
+    margin-top: 16px;
+}
+.dialpad-content table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 84%;
+    background-color: #292a2a;
+}
+.right-content-row .dialpad-content table  td span {
+    font-size: 32px;
+    color: #434547;
+    font-family: Roboto-regular;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.right-content-row .dialpad-content table  td {
+    width: 76px;
+    height: 72px;
+    border-left: 3px solid #434547;
+    border-bottom: 3px solid #434547;
+}
+.right-content-row .dialpad-content table  td:nth-of-type(1) {
+    border-left: none;
+}
+.right-content-row .dialpad-content table tr:nth-last-of-type(1) td,
+.right-content-row .dialpad-content table tr:nth-last-of-type(1) {
+    border-bottom: none;
+}
+
+
+@media (max-width: 1000px) {
+    .container-head p {
+        padding-right: 10px;
+    }
+}
+@media (max-width: 768px) {
+    header {
+        height: 30px;
+    }
+    main {
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+    aside {
+        display: none;
+    }
+    header .col-10 {
+        width: 94%;
+    }
+    .header-menu-btn {
+        display: inline-block;
+    }
+}
+@media (max-width: 600px) {
+    .filter-box .search-input {
+        float: initial;
+        display: block;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .container-head h2 {
+        font-size: 25px;
+    }
+    .right-side-content {
+        top: 104px;
+        left: 2%;
+        right: 2%;
+        width: 96%;
+    }
+}
+

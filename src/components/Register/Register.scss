@@ -1,0 +1,112 @@
+.register-account-content {
+    background-color: #4385f5;
+    margin-top: -1px;
+}
+.register-account-content .col-10 {
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 124px;
+    padding-left: 61px;
+}
+.register-account-content h4 {
+    font-family: opensans-light;
+    color: #fff;
+    font-size: 38px;
+    line-height: 24px;
+    font-weight: normal;
+}
+.register-account-content p {
+    font-family: opensans;
+    color: #fff;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 32px;
+    margin-left: 5px;
+}
+.register-form input {
+    outline: none;
+    border: none;
+    background-color: #fff;
+    border-radius: 4px;
+    height: 45px;
+    text-indent: 10px;
+    color: #213f72;
+    font-size: 15px;
+    font-family: Roboto-regular;
+    width: calc(100% - 50px);
+}
+.register-form input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #213f72;
+    font-size: 14px;
+    font-family: opensans;
+}
+.register-form input-input::-moz-placeholder { /* Firefox 19+ */
+    color: #213f72;
+    font-size: 14px;
+    font-family: opensans;
+}
+.register-form input:-ms-input-placeholder { /* IE 10+ */
+    color: #213f72;
+    font-size: 14px;
+    font-family: opensans;
+}
+.register-form input:-moz-placeholder { /* Firefox 18- */
+    color: #213f72;
+    font-size: 14px;
+    font-family: opensans;
+}
+.register-form .img-item {
+    width: 30px;
+    height: 30px;
+    margin-right: 3px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+.register-form .person-img {
+    background-image: url("../../assets/images/person.png");
+    background-size: 21px 30px;
+}
+.register-form .email-img {
+    background-image: url("../../assets/images/email.png");
+    background-size: 29px 23px;
+}
+.register-form .phone-number-img {
+    background-image: url("../../assets/images/phone-number.png");
+    background-size: 29px 30px;
+}
+.register-form .password-img {
+    background-image: url("../../assets/images/password-img.png");
+    background-size: 19px 30px;
+}
+.register-form .name-input {
+    width: calc((100% - 60px)/2);
+}
+.register-form .name-input:nth-of-type(1) {
+    margin-right: 1%;
+}
+.register-btn {
+    border-radius: 4px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    height: 52px;
+    font-family: opensans-semibold;
+    color: #fff;
+    font-size: 24px;
+    width: 68%;
+}
+.register-form {
+    margin-top: 50px;
+    width: 48%;
+}
+.form-row {
+    margin-top: 7px;
+}
+.name-row {
+    margin-bottom: 42px;
+}
+.pass-row {
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+

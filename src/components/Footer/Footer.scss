@@ -1,0 +1,43 @@
+footer .logo-content {
+    background-color: #242423;
+}
+footer .logo-content .col-10 {
+    margin: auto;
+}
+footer .logo-content .logo-center {
+    padding: 32px 0px;
+    text-align: center;
+    margin-left: 64px;
+}
+footer .icx-logo {
+    width: 126px;
+    height: 69px;
+    background-image: url("../../assets/images/icx-technologies-logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+footer .dnl-logo {
+    width: 245px;
+    height: 80px;
+    background-image: url("../../assets/images/dnl-logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo-center div {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 21px;
+}
+.footer-text {
+    background-color: #121212;
+}
+.footer-text p {
+    font-size: 14px;
+    color: #747575;
+    line-height: 20px;
+    font-family: Roboto-regular;
+    padding: 29px 10px;
+    text-align: center;
+    margin-left: 86px;
+}

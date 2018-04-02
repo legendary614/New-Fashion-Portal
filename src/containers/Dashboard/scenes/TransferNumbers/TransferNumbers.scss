@@ -1,0 +1,509 @@
+.transfer-numbers-main {
+    padding-left: 216px;
+    padding-top: 47px;
+}
+.container-head h2 {
+    font-family: opensans-light;
+    color: #4e4c4c;
+    font-weight: normal;
+    font-size: 43px;
+}
+.container-head h2 span {
+    color: #5885f5
+}
+.container-head p {
+    font-family: opensans;
+    font-size: 14px;
+    line-height: 18px;
+    color: #393838;
+    margin-top: 21px;
+    padding-right: 130px;
+}
+.filter-box {
+    margin-top: 37px;
+}
+.filter-box .display-p {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: Roboto-regular;
+    color: #8f8f93;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 3px;
+}
+
+.selected-item .option {
+    background-image: url(../../../../assets/images/input-arrow-down.png);
+    background-repeat: no-repeat;
+    background-color: #fff;
+    color: #222;
+    background-position: calc(100% - 10px) center !important;
+    border: 1px solid #d7d8da;
+}
+
+.header-menu-btn {
+    background-image: url(../../../../assets/images/menu-img-white.png);
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 17px;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    cursor: pointer;
+    display: none;
+}
+.container-head .add-number-btn {
+    border: none;
+    outline: none;
+    background-color: #5885f5;
+    color: #fff;
+    font-size: 16px;
+    font-family: opensans;
+    border-radius: 4px;
+    width: 185px;
+    height: 47px;
+    margin-top: 10px;
+    margin-left: 3px;
+    margin-bottom: 13px;
+}
+
+
+.check-portability-content {
+    margin-left: 3px;
+}
+.check-portability-content label {
+    font-family: Roboto-bold;
+    color: #4a4a52;
+    font-size: 11px;
+    line-height: 24px;
+    display: block;
+}
+.type-select {
+    width: 66%;
+    display: inline-block;
+}
+.type-select .option:nth-of-type(1) {
+    margin-top: 0;
+}
+.type-select .option {
+    height: 38px;
+}
+.type-select .first-option {
+    height: 47px;
+    border-radius: 4px;
+}
+.type-select p {
+    padding: 12px 10px;
+    color: #9e9b9a;
+    font-family: opensans;
+    font-size: 16px;
+}
+
+.checkbox-content {
+    margin-top: 50px;
+}
+.checkbox-content p {
+    font-family: Roboto-regular;
+    font-size: 14px;
+    color: #4a4a52;
+    line-height: 24px;
+    display: inline-block;
+    margin-left: 4px;
+    width: calc(100% - 30px);
+    vertical-align: top;
+}
+.enter-number-content {
+    background-color: #f6f7fc;
+    padding: 10px 23px 23px 23px;
+    margin-top: 14px;
+}
+.enter-number-content label {
+    font-family: Roboto-bold;
+    font-size: 11px;
+    line-height: 24px;
+    color: #4a4a52;
+    display: block;
+    text-transform: uppercase;
+}
+.enter-number-content .add-more-a {
+    font-family: opensans-semibold;
+    color: #5885f5;
+    font-size: 15px;
+    line-height: 29px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.enter-number-content input {
+    background-color: #fff;
+    height: 47px;
+    outline: none;
+    border: 1px solid #d8dbdc;
+    border-radius: 4px;
+    font-family: Roboto-regular;
+    font-size: 16px;
+    color: #323231;
+    width: 72%;
+    text-indent: 10px;
+}
+.check-portability-btn {
+    background-color: #5885f5;
+    font-family: opensans;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    width: 186px;
+    height: 47px;
+    float: right;
+    margin-top: 29px;
+    margin-right: 8px;
+}
+.main-content hr {
+    background-color: #000;
+    border-color: #000;
+    height: 5px;
+}
+.porting-process-content {
+    background-color: #5885f5;
+    padding: 28px 26px 88px 26px;
+}
+.porting-process-content h2 {
+    font-family: opensans-light;
+    color: #fff;
+    font-size: 43px;
+    font-weight: normal;
+}
+.porting-process-content p {
+    font-family: opensans;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-left: 4px;
+}
+.porting-process-content a {
+    font-family: opensans;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: underline;
+    margin-left: 4px;
+    margin-top: 17px;
+    display: block;
+    margin-bottom: 43px;
+}
+.porting-process-content span {
+    font-family: opensans-bold;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 30px;
+    display: block;
+    margin-left: 4px;
+}
+.container-head {
+    padding-left: 31px;
+    padding-right: 31px;
+}
+.container-head .text-div {
+    background-color: #f0efe7;
+    padding: 11px 19px 10px 19px;
+    border-radius: 4px;
+    margin-top: 22px;
+}
+.container-head .text-div p {
+    font-family: opensans;
+    color: #9d9c9c;
+    font-size: 13px;
+    margin-top: 0;
+    padding-right: 0;
+}
+.authorisation-transaction-content {
+    display: flex;
+    padding-left: 31px;
+    padding-right: 31px;
+    padding-top: 35px;
+    padding-bottom: 42px;
+}
+.authorisation-transaction-content .first-column {
+    width: 65%;
+    vertical-align: top;
+    margin-right: 1%;
+    padding-top: 15px;
+}
+.authorisation-transaction-content .second-column {
+    width: 34%;
+    vertical-align: top;
+}
+.form-row-content {
+    background-color: #f6f7fc;
+    padding: 10px 23px 23px 23px;
+    margin-top: 14px;
+    margin-left: 3px;
+}
+.trunk-input {
+    background-color: #fff;
+    height: 47px;
+    outline: none;
+    border: 1px solid #d8dbdc;
+    border-radius: 4px;
+    font-family: opensans;
+    font-size: 14px;
+    color: #323231;
+    width: 100%;
+    text-indent: 10px;
+}
+.form-row-content label {
+    font-family: Roboto-bold;
+    font-size: 11px;
+    line-height: 24px;
+    color: #4a4a52;
+    display: block;
+    text-transform: uppercase;
+    
+}
+.form-row-content .left-column {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
+.form-row-content .right-column {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
+.left-column .checkbox-content {
+    margin-top: 20px;
+}
+.check-port .check-port-content {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+}
+
+.check-port {
+    margin-top: 42px;
+    padding-left: 15px;
+}
+.footer-p {
+    font-family: Roboto-regular;
+    font-size: 13px;
+    color: #4a4a52;
+    margin-top: 15px;
+}
+.check-circle {
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    border: 1px solid #d8dbdc;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #f6f7fc;
+}
+.check-paypal-text {
+    display: inline-block;
+    margin-left: 3px;
+}
+.check-paypal-text p {
+    font-family: Roboto-regular;
+    font-size: 13px;
+    line-height: 28px;
+    color: #4a4a52;
+
+}
+.check-paypal-text p span {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background-image: url("../../../../assets/images/message-img.png");
+    background-size: 17px 17px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.check-circle.active {
+    background-color: #5885f5;
+}
+.form-row-content h4 {
+    font-family: opensans-semibold;
+    color: #4e4c4c;
+    font-size: 20px;
+    margin-top: 11px;
+    margin-left: -3px;
+}
+.check-if-billing {
+    margin-top: 17px;
+    margin-bottom: 8px;
+}
+
+.second-column .letter-of-authorisation {
+    background-color: #323231;
+    padding: 25px;
+    border-radius: 4px;
+}
+.second-column .letter-of-authorisation .checkbox-content p {
+    color: #818181;
+    margin-top: 0;
+}
+.second-column .letter-of-authorisation .checkbox-content {
+    margin-top: 11px;
+    margin-left: 4px;
+}
+.letter-of-authorisation h4 {
+    font-family: opensans-light;
+    color: #898787;
+    font-size: 28px;
+    margin-top: 19px;
+    font-weight: normal;
+}
+.letter-of-authorisation p {
+    font-family: opensans;
+    color: #5a5757;
+    font-size: 14px;
+    margin-top: 17px;
+    line-height: 18px;
+}
+.letter-of-authorisation .signature-label {
+    font-family: Roboto-bold;
+    color: #818181;
+    font-size: 11px;
+    line-height: 24px;
+    display: block;
+    text-transform: uppercase;
+    margin-top: 22px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+}
+.letter-of-authorisation .signature-input {
+    background-color: #fff;
+    height: 68px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    font-family: Roboto-regular;
+    font-size: 16px;
+    color: #323231;
+    width: 81%;
+    text-indent: 10px;
+    margin-left: 3px;
+}
+.clear-a {
+    font-family: opensans;
+    color: #5885f5;
+    font-size: 13px;
+    line-height: 29px;
+    display: block;
+    margin-left: 3px;
+}
+.browse-btn {
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-family: opensans;
+    color: #fff;
+    font-size: 16px;
+    background-color: #5885f5;
+    width: 187px;
+    height: 49px;
+    margin-top: 13px;
+    margin-bottom: 2px;
+    margin-left: 3px;
+}
+
+
+@media (max-width: 1250px) {
+    .authorisation-transaction-content {
+        display: block;
+    }
+    .authorisation-transaction-content .first-column {
+        width: 100%;
+        margin-right: 0;
+        padding-bottom: 90px;
+    }
+    .authorisation-transaction-content .second-column {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .check-port .check-port-content {
+        display: block;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+}
+    @media (max-width: 1050px) {
+    .check-portability-content {
+        width: calc(100% - 3px);
+        padding-right: 31px;
+    }
+}
+@media (max-width: 1000px) {
+    .container-head p {
+        padding-right: 10px;
+    }
+}
+@media (max-width: 768px) {
+    header {
+        height: 30px;
+    }
+    main {
+        padding-left: 0px;
+    }
+    aside {
+        display: none;
+    }
+    header .col-10 {
+        width: 94%;
+    }
+    .header-menu-btn {
+        display: inline-block;
+    }
+}
+@media (max-width: 950px) {
+    .filter-box .search-input {
+        float: initial;
+        display: block;
+        margin-top: 10px;
+    }
+    .csv-content {
+        float: initial;
+        margin-left: 15px;
+        display: inline-block;
+    }
+}
+
+@media (max-width: 600px) {
+    .filter-box .search-input {
+        width: 100%;
+    }
+    .container-head h2 {
+        font-size: 25px;
+    }
+    .left-side-div {
+        width: 100%;
+    }
+    .filter-box .action-select.select-item-content {
+        width: 100%;
+        margin-top: 20px;
+        display: block;
+    }
+    .type-select {
+        width: 100%;
+    }
+    .enter-number-content input {
+        width: 100%;
+    }
+    .form-row-content .left-column,
+    .form-row-content .right-column {
+        width: 100%;
+        display: block;
+    }
+    .letter-of-authorisation .signature-input {
+        width: 100%;
+    }
+    .authorisation-transaction-content {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .check-portability-content {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
